@@ -20,13 +20,7 @@ opts = {
         "tranc":('переведи','переведи слово','выполни перевод','слово')
     }
 }
-def translating(cmd):
-    lang='ru'
-    tlang='en'
-    translator=Translator(from_lang=lang, to_lang=tlang)
-    print(translator.translate(cmd))
-    wrd=str(translator.translate(cmd))
-    return wrd
+
 
 
 engine = pyttsx3.init('sapi5')
