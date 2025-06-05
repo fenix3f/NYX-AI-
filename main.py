@@ -10,7 +10,8 @@ import random
 import webbrowser
 wikipedia.set_lang("ru")
 
-#Вношу изменения в код
+def test_def():
+    print('Тестовая функция')
 
 
 opts = {
