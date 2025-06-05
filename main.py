@@ -9,6 +9,10 @@ from translate import Translator
 import random
 import webbrowser
 wikipedia.set_lang("ru")
+
+#Вношу изменения в код
+
+
 opts = {
     "alias": ('никс', 'nyx', 'микс', 'некс', 'мекс',
               'nix', 'mix', 'myx'),
