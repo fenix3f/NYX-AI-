@@ -12,7 +12,7 @@ wikipedia.set_lang("ru")
 
 def test_def():
     print('Тестовая функция')
-
+    print('Еще немного измений')
 
 opts = {
     "alias": ('никс', 'nyx', 'микс', 'некс', 'мекс',
